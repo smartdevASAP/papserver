@@ -12,7 +12,7 @@ const cookieParser = require("cookie-parser");
 app.use(
   cors({
     origin: "https://paperless-ten.vercel.app/", // React dev server
-
+    origin: "https://papclient.vercel.app/",
     credentials: true, // allow cookies if using auth
   })
 );
