@@ -3,7 +3,8 @@ const app = express();
 const cors = require("cors");
 // const uploadRoutes = require("./routes/upload_routes.js");
 const uploadFile = require("./routes/upload_routes.js");
-const user_endpoints = require("../server/routes/user_routes.js");
+// const user_endpoints = require("../server/routes/user_routes.js");
+const user_endpoints = require("./routes/user_routes.js");
 const admin_endpoints = require("./routes/admin_routes.js");
 const cookieParser = require("cookie-parser");
 //front end CORS setting
