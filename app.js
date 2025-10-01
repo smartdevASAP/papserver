@@ -10,7 +10,8 @@ const cookieParser = require("cookie-parser");
 // ✅ Put CORS before routes
 app.use(
   cors({
-    origin: "http://localhost:5173", // React dev server
+    origin: "https://paperless-ten.vercel.app/", // React dev server
+
     credentials: true, // allow cookies if using auth
   })
 );
